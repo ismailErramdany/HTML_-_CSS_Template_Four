@@ -1,0 +1,76 @@
+.bg-w  {
+    background-color: white;
+}
+.bg-eee {
+    background-color: #eee;
+}
+.bg-f6 {
+    background-color: #f6f6f6;
+}
+.txt-c {
+    text-align: center;
+}
+.h-three {
+    font-size: 24px;
+    font-weight: bold;
+}
+.pd-zero {
+    padding: 0;
+}
+.pd-one {
+    padding: 8px;
+}
+.pd-two {
+    padding: 16px;
+}
+.pd-three {
+    padding: 24px;
+}
+.pd-four {
+    padding: 32px;
+}
+.mb-16 {
+    margin-bottom: 16px;
+}
+.mb-32 {
+    margin-bottom: 32px;
+}
+.mb-24 {
+    margin-bottom: 24px;
+}
+.mb-40 {
+    margin-bottom: 40px;
+}
+.txt-cap {
+    text-transform: capitalize;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.al-c {
+    display: flex;
+    align-items: center;
+}
+.jus-c {
+    display: flex;
+    justify-content: center;
+}
+.al-c-sp-b {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.po-r {
+    position: relative;
+}
+.bg-orange {
+    background-color: var(--orange-color);
+}
+.bg-bleu {
+    background-color: var(--bleu-color);
+}
+.bg-green {
+    background-color: var(--green-color);
+}

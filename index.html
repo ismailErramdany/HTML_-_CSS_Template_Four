@@ -7,12 +7,561 @@
     <!-- css files -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/myFrameWork.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500&display=swap" rel="stylesheet">
     <!-- javascript files -->
     <script src="script/main.js" defer></script>
     <!--  -->
     <title>HTML_-_CSS_Template_Four</title>
 </head>
 <body>
-    
+    <div id="dashbord">
+        <aside class="bg-w txt-c pd-three txt-cap">
+            <p class="mb-40">er-ramdany</p>
+            <ul>
+                <li class="al-c bg-f6"><i class="fa-regular fa-chart-bar fa-fw"></i><span>dashbord</span></li>
+                <li class="al-c"><i class="fa-solid fa-gear fa-fw"></i><span>settings</span></li>
+                <li class="al-c"><i class="fa-regular fa-user fa-fw"></i><span>profile</span></li>
+                <li class="al-c"><i class="fa-solid fa-diagram-project fa-fw"></i><span>projects</span></li>
+                <li class="al-c"><i class="fa-solid fa-graduation-cap fa-fw"></i><span>courses</span></li>
+                <li class="al-c"><i class="fa-regular fa-circle-user fa-fw"></i><span>friend</span></li>
+                <li class="al-c"><i class="fa-regular fa-file fa-fw"></i><span>files</span></li>
+                <li class="al-c"><i class="fa-regular fa-credit-card fa-fw"></i><span>plans</span></li>
+            </ul>
+        </aside>
+        <main>
+            <!-- start nav bar -->
+            <header>
+                <nav id="navBar" class="al-c-sp-b  pd-two po-r">
+                    <input type="search" placeholder="Type a Keyword"><i class="fa-solid fa-magnifying-glass"></i></input>
+                    <div class="center">
+                        <span><i class="fa-regular fa-bell"></i></span>
+                        <img src="images/avatar.png" alt="profile image" srcset="">
+                    </div>
+                </nav>
+            </header>
+            <!-- end nav bar -->
+            <!-- start main content -->
+            <div class="content pd-two">
+                <h1 class="po-r txt-cap">dashboard</h1>
+                <div>
+                    <div id="greeting" class="partOfContent">
+                        <header class="bg-eee al-c-sp-b">
+                            <div style="align-self: flex-start;">
+                                <h2>welcome</h2>
+                                <p>er-ramdany</p>
+                            </div>
+                            <img src="images/welcome.png" alt="welcome">
+                        </header>
+                        <div>
+                            <img src="images/avatar.png" alt="profile icon" srcset="">
+                            <div class="information-about-me">
+                                <div>
+                                    <span>mr er-ramdany</span>
+                                    <p>developer</p>
+                                </div>
+                                <div>
+                                    <span>8</span>
+                                    <p>projects</p>
+                                </div>
+                                <div>
+                                    <span>$0</span>
+                                    <p>earned</p>
+                                </div>
+                            </div>
+                            <button>profile</button>
+                        </div>
+                    </div>
+                    <div id="draft" class="partOfContent">
+                        <header class="al-c-sp-b">
+                            <div style="align-self: flex-start;">
+                                <h2>quick draft</h2>
+                                <p>write a draft for you ideas</p>
+                            </div>
+                        </header>
+                        <div class="input-field">
+                            <input type="text" placeholder="Title">
+                        <textarea cols="30" rows="10" placeholder="Your Thought"></textarea>
+                        </div>
+                        <button>save</button>
+                    </div>
+                    <div id="target" class="partOfContent">
+                        <header class="al-c-sp-b">
+                            <div style="align-self: flex-start;">
+                                <h2>Yearly Targets</h2>
+                                <p>Targets Of The Year</p>
+                            </div>
+                        </header>
+                        <div class="first-target">
+                            <div>
+                                <div class="square center"><i class="fa-solid fa-dollar-sign"></i></div>
+                                <div>
+                                    <div>
+                                        <p>Money</p>
+                                        <span>$20.000</span>
+                                    </div>
+                                    <div class="progress" style="--var:80%;--color-back:var(--bleu-color)">
+                                        <div class="bg-bleu" style="--var2:80"></div>
+                                        <div class="bg-bleu"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="second-target">
+                            <div>
+                                <div class="square center"><i class="fa-solid fa-code"></i></div>
+                                <div>
+                                    <div>
+                                        <p>Projects</p>
+                                        <span>24</span>
+                                    </div>
+                                    <div class="progress" style="--var:55%;--color-back:var(--orange-color)">
+                                        <div class="bg-orange" style="--var2:55"></div>
+                                        <div class="bg-orange"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="third-target">
+                            <div>
+                                <div class="square center"><i class="fa-solid fa-user"></i></div>
+                                <div>
+                                    <div>
+                                        <p>team</p>
+                                        <span>12</span>
+                                    </div>
+                                    <div class="progress" style="--var:75%;--color-back:var(--green-color)">
+                                        <div class="bg-green" style="--var2:75"></div>
+                                        <div class="bg-green"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="statics" class="partOfContent">
+                        <header class="al-c-sp-b">
+                            <div style="align-self: flex-start;">
+                                <h2>tickets statics</h2>
+                                <p>everything about support tickets</p>
+                            </div>
+                        </header>
+                        <div class="our-statics">
+                            <div>
+                                <i class="fa-regular fa-rectangle-list fa-2x" style="--color:var(--orange-color)"></i>
+                                <h2>2500</h2>
+                                <p>total</p>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-spinner fa-2x" style="--color:var(--bleu-color)"></i>
+                                <h2>500</h2>
+                                <p>pending</p>
+                            </div>
+                            <div>
+                                <i class="fa-regular fa-circle-check fa-2x" style="--color:var(--green-color)"></i>
+                                <h2>1900</h2>
+                                <p>closed</p>
+                            </div>
+                            <div>
+                                <i class="fa-regular fa-rectangle-xmark fa-2x" style="--color:var(--red-color)"></i>
+                                <h2>100</h2>
+                                <p>deleted</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="news" class="partOfContent newsAndUploads">
+                        <header class="al-c-sp-b">
+                            <div style="align-self: flex-start;">
+                                <h2>latest news</h2>
+                            </div>
+                        </header>
+                        <div class="news">
+                            <div>
+                                <img src="images/news-01.png" alt="" srcset="">
+                                <div>
+                                    <h3>created sass section</h3>
+                                    <p>new sass examples & tutorials</p>
+                                </div>
+                                <span>3 days ago</span>
+                            </div>
+                            <div>
+                                <img src="images/news-02.png" alt="" srcset="">
+                                <div>
+                                    <h3>changed the design</h3>
+                                    <p>a brand new website design</p>
+                                </div>
+                                <span>5 days ago</span>
+                            </div>
+                            <div>
+                                <img src="images/news-03.png" alt="" srcset="">
+                                <div>
+                                    <h3>team increased</h3>
+                                    <p>3 developers joined the team</p>
+                                </div>
+                                <span>7 days ago</span>
+                            </div>
+                            <div>
+                                <img src="images/news-04.png" alt="" srcset="">
+                                <div>
+                                    <h3>added payment gateway</h3>
+                                    <p>many new payment gateways added</p>
+                                </div>
+                                <span>9 days ago</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="latestTasks" class="partOfContent">
+                        <header class="al-c-sp-b">
+                            <div style="align-self: flex-start;">
+                                <h2>latest tasks</h2>
+                            </div>
+                        </header>
+                        <div class="tasks">
+                            <div class="task">
+                                <div>
+                                    <h3>record one video</h3>
+                                    <p>record python create exe project</p>
+                                </div>
+                                <i class="fa-regular fa-trash-can delete"></i>
+                            </div>
+                            <div class="task">
+                                <div>
+                                    <h3>write article</h3>
+                                    <p>write low level vs high level languages</p>
+                                </div>
+                                <i class="fa-regular fa-trash-can delete"></i>
+                            </div>
+                            <div class="task">
+                                <div>
+                                    <h3>finish project</h3>
+                                    <p>publish academy programming project</p>
+                                </div>
+                                <i class="fa-regular fa-trash-can delete"></i>
+                            </div>
+                            <div class="task">
+                                <div class="delete">
+                                    <h3>attend the meeting</h3>
+                                    <p>attend the project business analysis meeting</p>
+                                </div>
+                                <i class="fa-regular fa-trash-can delete"></i>
+                            </div>
+                            <div class="task">
+                                <div>
+                                    <h3>finish lesson</h3>
+                                    <p>finish teaching flex box</p>
+                                </div>
+                                <i class="fa-regular fa-trash-can delete"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="topSearshItems" class="partOfContent">
+                        <header class="al-c-sp-b">
+                            <div style="align-self: flex-start;">
+                                <h2>top search items</h2>
+                            </div>
+                        </header>
+                        <div>
+                            <P>keyword</P>
+                            <P>searsh count</P>
+                        </div>
+                        <div>
+                            <h3>programming</h3>
+                            <span>102</span>
+                        </div>
+                        <div>
+                            <h3>javascript</h3>
+                            <span>200</span>
+                        </div>
+                        <div>
+                            <h3>php</h3>
+                            <span>160</span>
+                        </div>
+                        <div>
+                            <h3>code</h3>
+                            <span>80</span>
+                        </div>
+                        <div>
+                            <h3>design</h3>
+                            <span>46</span>
+                        </div>
+                        <div>
+                            <h3>logic</h3>
+                            <span>99</span>
+                        </div>
+                    </div>
+                    <div id="latestUploads" class="partOfContent newsAndUploads">
+                        <header class="al-c-sp-b">
+                            <div style="align-self: flex-start;">
+                                <h2>latest uploads</h2>
+                            </div>
+                        </header>
+                        <div class="uploads">
+                            <div>
+                                <img src="images/pdf.svg" alt="" srcset="">
+                                <div>
+                                    <h3>my-file.pdf</h3>
+                                    <p>elzero</p>
+                                </div>
+                                <span>2.9mb</span>
+                            </div>
+                            <div>
+                                <img src="images/avi.svg" alt="" srcset="">
+                                <div>
+                                    <h3>my-video-file.avi</h3>
+                                    <p>admin</p>
+                                </div>
+                                <span>4.9mb</span>
+                            </div>
+                            <div>
+                                <img src="images/psd.svg" alt="" srcset="">
+                                <div>
+                                    <h3>my-psd-file.pdf</h3>
+                                    <p>osama</p>
+                                </div>
+                                <span>4.5mb</span>
+                            </div>
+                            <div>
+                                <img src="images/zip.svg" alt="" srcset="">
+                                <div>
+                                    <h3>my-zip-file.pdf</h3>
+                                    <p>osama</p>
+                                </div>
+                                <span>8.9mb</span>
+                            </div>
+                            <div>
+                                <img src="images/dll.svg" alt="" srcset="">
+                                <div>
+                                    <h3>my-dll-file.pdf</h3>
+                                    <p>osama</p>
+                                </div>
+                                <span>4.9mb</span>
+                            </div>
+                            <div>
+                                <img src="images/eps.svg" alt="" srcset="">
+                                <div>
+                                    <h3>my-eps-file.pdf</h3>
+                                    <p>osama</p>
+                                </div>
+                                <span>8.9mb</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="currentProjectProgress" class="partOfContent">
+                        <header class="al-c-sp-b">
+                            <div style="align-self: flex-start;">
+                                <h2>last project progress</h2>
+                            </div>
+                        </header>
+                        <img src="images/project.png" alt="project progress" srcset="">
+                        <div class="our-progress">
+                            <div>
+                                <h3>test our find heee</h3>
+                            </div>
+                            <div>
+                                <h3>test our find heee</h3>
+                            </div>
+                            <div>
+                                <h3>test our find heee</h3>
+                            </div>
+                            <div>
+                                <h3>test our find heee</h3>
+                            </div>
+                            <div>
+                                <h3>test our find heee</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="reminders" class="partOfContent">
+                        <header class="al-c-sp-b">
+                            <div style="align-self: flex-start;">
+                                <h2>reminders</h2>
+                            </div>
+                        </header>
+                        <div class="reminders">
+                            <div class="reminder" style="--color:var(--bleu-color)">
+                                <span>check my tasks list</span>
+                                <p>28/09/2022 - 12:00am</p>
+                            </div>
+                            <div class="reminder" style="--color:var(--green-color)">
+                                <span>check my projects</span>
+                                <p>26/10/2022 - 12:00am</p>
+                            </div>
+                            <div class="reminder" style="--color:var(--orange-color)">
+                                <span>call all my clients</span>
+                                <p>05/11/2022 - 12:00am</p>
+                            </div>
+                            <div class="reminder" style="--color:var(--red-color)">
+                                <span>finish the development workshop</span>
+                                <p>20/12/2022 - 12:00am</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="latestPosts" class="partOfContent">
+                        <header class="al-c-sp-b">
+                            <div style="align-self: flex-start;">
+                                <h2>latest posts</h2>
+                            </div>
+                        </header>
+                        <div>
+                            <div class="header-of-post">
+                                <img src="images/avatar.png" alt="" srcset="">
+                                <div>
+                                    <h3>osama elzero</h3>
+                                    <p>about 3 hours ago</p>
+                                </div>
+                            </div>
+                            <p>
+                                You Can Fool All Of The People Some Of The Time,
+                                And Some Of The People All Of The Time, But You Can't Fool All Of The People All Of The Time.
+                            </p>
+                            <div class="posts-stats">
+                                <div>
+                                    <i class="fa-regular fa-heart"></i>
+                                    <span>1.8K</span>
+                                </div>
+                                <div>
+                                    <i class="fa-regular fa-comments"></i>
+                                    <span>500</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="socialMediaPosts" class="partOfContent">
+                        <header class="al-c-sp-b">
+                            <div style="align-self: flex-start;">
+                                <h2>Social Media Stats</h2>
+                            </div>
+                        </header>
+                        <div class="socialMedia">
+                            <div class="media twitter">
+                                <div class="brand"><i class="fa-brands fa-twitter"></i></div>
+                                <span>90K Followers</span>
+                                <button>follow</button>
+                            </div>
+                            <div class="media facebook">
+                                <div class="brand"><i class="fa-brands fa-facebook-f"></i></div>
+                                <span>90K Followers</span>
+                                <button>like</button>
+                            </div>
+                            <div class="media youtube">
+                                <div class="brand"><i class="fa-brands fa-youtube"></i></div>
+                                <span>90K Followers</span>
+                                <button>subscribe</button>
+                            </div>
+                            <div class="media linkedin">
+                                <div class="brand"><i class="fa-brands fa-linkedin"></i></div>
+                                <span>90K Followers</span>
+                                <button>follow</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="projects" class="partOfContent">
+                        <header class="al-c-sp-b">
+                            <div style="align-self: flex-start;">
+                                <h2>Projects</h2>
+                            </div>
+                        </header>
+                        <table>
+                            <thead>
+                                <td>name</td>
+                                <td>finish date</td>
+                                <td>client</td>
+                                <td>price</td>
+                                <td>team</td>
+                                <td>status</td>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Ministry Wikipedia	</td>
+                                    <td>10 May 2022</td>
+                                    <td>Ministry</td>
+                                    <td>$5300</td>
+                                    <td>
+                                        <ul>
+                                            <li><img src="" alt=""></li>
+                                            <li><img src="" alt=""></li>
+                                            <li><img src="" alt=""></li>
+                                            <li><img src="" alt=""></li>
+                                        </ul>
+                                    </td>
+                                    <td><span>pending</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Ministry Wikipedia	</td>
+                                    <td>10 May 2022</td>
+                                    <td>Ministry</td>
+                                    <td>$5300</td>
+                                    <td>
+                                        <ul>
+                                            <li><img src="" alt=""></li>
+                                            <li><img src="" alt=""></li>
+                                            <li><img src="" alt=""></li>
+                                        </ul>
+                                    </td>
+                                    <td><span>in progress</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Ministry Wikipedia	</td>
+                                    <td>10 May 2022</td>
+                                    <td>Ministry</td>
+                                    <td>$5300</td>
+                                    <td>
+                                        <ul>
+                                            <li><img src="" alt=""></li>
+                                            <li><img src="" alt=""></li>
+                                        </ul>
+                                    </td>
+                                    <td><span>completed</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Ministry Wikipedia	</td>
+                                    <td>10 May 2022</td>
+                                    <td>Ministry</td>
+                                    <td>$5300</td>
+                                    <td>
+                                        <ul>
+                                            <li><img src="" alt=""></li>
+                                            <li><img src="" alt=""></li>
+                                        </ul>
+                                    </td>
+                                    <td><span>completed</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Ministry Wikipedia	</td>
+                                    <td>10 May 2022</td>
+                                    <td>Ministry</td>
+                                    <td>$5300</td>
+                                    <td>
+                                        <ul>
+                                            <li><img src="" alt=""></li>
+                                            <li><img src="" alt=""></li>
+                                        </ul>
+                                    </td>
+                                    <td><span>rejected</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Ministry Wikipedia	</td>
+                                    <td>10 May 2022</td>
+                                    <td>Ministry</td>
+                                    <td>$5300</td>
+                                    <td>
+                                        <ul>
+                                            <li><img src="" alt=""></li>
+                                            <li><img src="" alt=""></li>
+                                            <li><img src="" alt=""></li>
+                                            <li><img src="" alt=""></li>
+                                        </ul>
+                                    </td>
+                                    <td><span>completed</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <!-- end main content -->
+        </main>
+    </div>
 </body>
 </html>
